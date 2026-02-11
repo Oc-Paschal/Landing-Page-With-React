@@ -1,12 +1,14 @@
-import Navbar from "./component/Navbar"
-import Herosection from "./component/Herosection"
+import Navbar from "./component/Navbar";
+import Herosection from "./component/Herosection";
+import Features from "./component/Features";
 
 function App() {
   
   return (
     <>
-    <Navbar></Navbar>
-    <Herosection></Herosection>
+    <Navbar/>
+    <Herosection/>
+    <Features/>
 
 
     
