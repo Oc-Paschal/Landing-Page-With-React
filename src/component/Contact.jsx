@@ -22,24 +22,26 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex gap-3">
-             <div className="w-px h-11 bg-gray-200"></div>
+          <div className="w-px h-11 bg-gray-200"></div>
           <i className="fa-solid fa-phone text-3xl text-black"></i>
           <div>
             <h3> Call Us</h3>
             <p>07012345678</p>
           </div>
         </div>
-       
 
         <div className="flex gap-3">
-             <div className="w-px h-11 bg-gray-200"></div>
+          <div className="w-px h-11 bg-gray-200"></div>
           <i className="fa-solid fa-location-dot text-3xl text-black"></i>
           <div>
             <h3>Visit Us</h3>
-            <p>123 Web Avenue,<br/>Lagos, Nigeria</p>
+            <p>
+              123 Web Avenue,
+              <br />
+              Lagos, Nigeria
+            </p>
           </div>
         </div>
-        
       </div>
     </section>
   );

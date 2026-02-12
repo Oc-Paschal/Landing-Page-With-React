@@ -3,6 +3,7 @@ import Herosection from "./component/Herosection";
 import Features from "./component/Features";
 import AboutUs from "./component/AboutUs";
 import Contact from "./component/Contact";
+import Message from "./component/Message";
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
     <Features/>
     <AboutUs/>
     <Contact/>
+    <Message/>
 
 
     

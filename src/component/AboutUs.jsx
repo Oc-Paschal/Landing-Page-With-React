@@ -3,7 +3,7 @@ import download from '../Images/download (1).jpg'
 
 const AboutUs = () => {
   return (
-    <section>
+    <section className="bg-neutral-50">
       <div>
         <h1 className="text-center font-bold text-3xl p-2"> About Us </h1>
 
