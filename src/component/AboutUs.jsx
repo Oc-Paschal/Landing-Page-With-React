@@ -14,7 +14,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="flex gap-12 p-5 justify-center w-full">
+      <div className="flex flex-col sm:flex-row lg:flex-row gap-12 p-5 justify-center w-full">
         <div className="flex p-4 h-80 ">
           <img src={download} alt="Aboutus image" className="rounded-2xl border-5 border-gray-300" />
         </div>

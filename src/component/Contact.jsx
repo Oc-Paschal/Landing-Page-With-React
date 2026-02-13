@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex  gap-30 p-8 justify-center w-full ">
+      <div className="flex gap-30 p-8 justify-center w-full ">
         <div className="flex gap-3">
           <i className="fa-solid fa-envelope text-3xl text-black"></i>
           <div>

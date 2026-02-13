@@ -14,7 +14,7 @@ const Features = () => {
       </div>
 
       <div className="py-8 px-6">
-        <div className="grid grid-cols-3 gap-6 ">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-3 gap-6 ">
           <div className="p-6 shadow-lg rounded-2xl bg-neutral-100">
             <h3 className="text-xl font-bold mb-2 text-center">
               Website Development
