@@ -3,7 +3,7 @@ import pinInterestImage from '../Images/Pininterest.jpg';
 
 const Herosection = () => {
   return (
-    <section className="   flex flex-col md:flex-row items-center justify-between px-12 py-16">
+    <section className="   flex flex-col md:flex-row items-center justify-between   sm:px-12    px-4 sm:py-16 py-9">
       <div>
         <h1 className="text-4xl font-bold mb-4">
           Welcome to my Landing Page

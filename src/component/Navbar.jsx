@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <nav className="flex justify-between items-center p-4 bg-gray-100">
+        <nav className="flex justify-between fixed w-full items-center p-4 bg-gray-100">
           <h1 className="text-xl font-bold">Oc_Paschal</h1>
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden ">
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
           </button>
           {isOpen && (
             <ul className="md:hidden flex flex-col w-full text-center p-9 mt-70 gap-4  bg-white p-4 shadow  fixed">
