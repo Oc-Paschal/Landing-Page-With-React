@@ -1,22 +1,21 @@
-import Navbar from "./component/Navbar";
-import Herosection from "./component/Herosection";
-import Features from "./component/Features";
-import AboutUs from "./component/AboutUs";
-import Contact from "./component/Contact";
-import Message from "./component/Message";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Features from "./Pages/Features";
 
-function App() {
-  
+
+import React from 'react'
+
+const App = () => {
   return (
     <>
-    <Navbar/>
-    <Herosection/>
-    <Features/>
-    <AboutUs/>
-    <Contact/>
-    <Message/>
-
-
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/Features" element={<Features/>}/>
+    </Routes>
     
     </>
   )

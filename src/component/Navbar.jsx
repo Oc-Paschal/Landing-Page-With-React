@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,25 +13,25 @@ const Navbar = () => {
           </button>
           {isOpen && (
             <ul className="md:hidden flex flex-col w-full text-center p-9 mt-70 gap-4  bg-white p-4 shadow  fixed">
-              <li>Home</li>
-              <li>Features</li>
-              <li>About</li>
-              <li>Contact</li>
+              <Link to={"/"}>Home</Link>
+              <Link to={"/Features"}>Features</Link>
+              <Link to={"/About"}>About</Link>
+              <Link to={"/Contact"}>Contact</Link>
             </ul>
           )}
           <div className=" hidden md:flex gap-6">
-            <a href="#" className="hover:text-blue-600 font-semibold ">
+            <Link to={"/"} className="hover:text-blue-600 font-semibold ">
               Home
-            </a>
-            <a href="#" className="hover:text-blue-600  font-semibold">
+            </Link>
+            <Link to={"/Features"} className="hover:text-blue-600  font-semibold">
               Features
-            </a>
-            <a href="#" className="hover:text-blue-600   font-semibold">
+            </Link>
+            <Link to={"/About"} className="hover:text-blue-600   font-semibold">
               About
-            </a>
-            <a href="#" className="hover:text-blue-600  font-semibold">
+            </Link>
+            <Link to={"/Contact"} className="hover:text-blue-600  font-semibold">
               Contact
-            </a>
+            </Link>
             <button className="bg-blue-600   cursor-pointer text-white px-4 py-2 rounded-lg hover:bg-blue-700">
               Get Started
             </button>
