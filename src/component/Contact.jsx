@@ -11,15 +11,15 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex gap-30   p-8 justify-center w-full ">
-        <div className="flex gap-3">
+      <div className="flex flex-wrap gap-6 p-6 justify-center w-full">
+        <div className="flex gap-3 items-center min-w-[200px]">
           <i className="fa-solid fa-envelope text-3xl text-black"></i>
           <div>
             <h3> Email Us</h3>
             <p>info@mybrand.com</p>
           </div>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-3 items-center min-w-[200px]">
           <div className="w-px h-11 bg-gray-200"></div>
           <i className="fa-solid fa-phone text-3xl text-black"></i>
           <div>
@@ -28,7 +28,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-3 items-center min-w-[200px]">
           <div className="w-px h-11 bg-gray-200"></div>
           <i className="fa-solid fa-location-dot text-3xl text-black"></i>
           <div>
